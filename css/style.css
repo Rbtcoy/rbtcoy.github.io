@@ -1,0 +1,76 @@
+*{
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li a:visited,a:link, a:hover, a:active{
+    text-decoration: none;
+}
+
+.navBar li a:hover{
+    color: blueviolet;
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer{
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-around;
+}
+
+.navBar li a{
+    background-color: burlywood;
+    color: rgb(57, 2, 69);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1{
+    background-color: burlywood;
+    color: rgb(57, 2, 69);
+    text-decoration: underline;
+}
+
+.aboutMe{
+    background-color: black;
+    color: azure;
+}
+
+.Projects{
+    background-color: darkslategray;
+    color: beige;
+}
+
+.contactInfo{
+    background-color: goldenrod;
+}
+
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: burlywood;
+    column-gap: 0;
+}
+
+img, .aboutItem1{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.aboutItem1{
+    justify-self: center;
+}
+
+.aboutItem2{
+    margin-left: 0px;
+    background-color: burlywood;
+    color: rgb(57, 2, 69);
+}
