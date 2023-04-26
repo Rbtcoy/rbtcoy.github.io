@@ -58,9 +58,10 @@ h1 {
 
 .aboutContainer {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
   background-color: burlywood;
-  column-gap: 0;
+  column-gap: 0px;
+  align-content: space-evenly;
 }
 
 img,
@@ -71,6 +72,7 @@ img,
 
 .aboutItem1 {
   justify-self: center;
+  border: 5px solid rgb(57, 2, 69);
 }
 
 .aboutItem2 {
@@ -78,6 +80,7 @@ img,
   background-color: burlywood;
   color: rgb(57, 2, 69);
   grid-column-start: 2;
+  max-height: 5rem;
 }
 
 .aboutSkills {
@@ -98,4 +101,19 @@ footer{
 
 .contactInfo{
     padding-top: 4rem;
+}
+
+h2, h3{
+  color: rgb(57, 2, 69);
+}
+
+img{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.projectGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
 }
