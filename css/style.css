@@ -117,4 +117,5 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: space-around;
+  padding-top: 3rem;
 }
