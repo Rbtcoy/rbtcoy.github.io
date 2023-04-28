@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+
+body{
+  margin: 20px;
+}
+
 .navBar li a:visited,
 a:link,
 a:hover,
@@ -41,6 +46,7 @@ h1 {
   background-color: burlywood;
   color: rgb(57, 2, 69);
   text-decoration: underline;
+  margin: 0px;
 }
 
 .aboutMe {
